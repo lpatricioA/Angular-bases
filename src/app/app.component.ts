@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { count } from 'rxjs';
+import { __values } from 'tslib';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'bases';
+ public title:string = 'Hola Mundo';
+
 }
